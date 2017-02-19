@@ -1,0 +1,6 @@
+<div class="col-md-6 col-md-offset-3">
+  <% @photos.each do |photo| %>
+  <%= photo.title %><br>
+    <%= link_to (image_tag photo.url, class: "img-responsive"), photo_path(photo) %>
+  <% end %>
+</div>

@@ -1,0 +1,43 @@
+// Place all the styles related to the photos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.site-title {
+    font-family: 'Vidaloka', serif;
+    text-align: center;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-shadow: 3px 3px 6px #E6E6FA;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0px;
+    padding-top: 10px;
+    height: 60px;
+}
+header {
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+    background-color: #000000;
+}
+.header-link {
+    font-family: 'Vidaloka', serif;
+    float: right;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+.header-link:hover {
+    color: #00FFFF;
+}
+.main {
+    margin-top: 120px;
+}
+.show-btn {
+    margin-top: 10px;
+}
+.img-responsive {
+    width: 100%;
+    margin: 10px 0px;
+}

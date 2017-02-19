@@ -1,0 +1,14 @@
+<div class="col-md-6 col-md-offset-3">
+  <%= form_for(@photo) do |f| %>
+    <div class="from-group">
+      <%= f.label :title %><br>
+      <%= f.text_field :title, class: "form-control" %>
+    </div>
+    <div class="form-group">
+      <%= f.label :url %><br>
+      <%= f.text_field :url, class: "form-control" %>
+    </div>
+    <%= f.submit class: "btn btn-default" %>
+    <%= link_to "Index photo", photos_path, class: "btn btn-default" %>
+    <% end %>
+</div>
